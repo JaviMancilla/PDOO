@@ -13,7 +13,9 @@ import java.util.ArrayList;
  */
 public class PruebaQytetet {
 
-    private static ArrayList mazo;
+    private static final ArrayList<Sorpresa> mazo = new ArrayList<>();
+    
+    
     
     
     
@@ -35,8 +37,20 @@ public class PruebaQytetet {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        
-        
+       
+        inicializarSorpresa();
+        System.out.println(mazo.toString());
+    
     }
+        
+        
+        
+        
+        
+            
+        
+        
+        
+    
     
 }

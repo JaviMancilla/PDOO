@@ -63,7 +63,7 @@ public class Sorpresa {
     public String toString() {
         return "Sorpresa{" + "texto=" + texto + 
                              ", valor=" + valor + 
-                             ", tipo=" + tipo + '}';
+                             ", tipo=" + tipo + '}' + '\n';
     }
     
     
