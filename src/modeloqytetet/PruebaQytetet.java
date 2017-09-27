@@ -13,28 +13,24 @@ import java.util.ArrayList;
  */
 public class PruebaQytetet {
 
-    private ArrayList mazo;
+    private static ArrayList mazo;
     
     
     
-    private void inicializarSorpresa(){
+    private static void inicializarSorpresa(){
         
-        mazo.add(new Sorpresa("Te hemos pillado con chanclas y calcetines " + 
-                              "lo sentimos, ¡debes ir a la carcel", 
+        mazo.add(new Sorpresa("Te hemos pillado con chanclas y calcetines lo sentimos, ¡debes ir a la carcel", 
                               9, 
                               TipoSorpresa.IRACASILLA));
         
-        mazo.add(new Sorpresa("Un fan anónimo ha pagado tu fianza." +
-                              "Sales de la cárcel", 
+        mazo.add(new Sorpresa("Un fan anónimo ha pagado tu fianza. Sales de la cárcel", 
                               0, 
                               TipoSorpresa.SALIRCARCEL));
         
         mazo.add(new Sorpresa("Te has encontrado un bolso y ganas 200", 
                               200, 
                               TipoSorpresa.PAGARCOBRAR));
-        mazo.add(new Sorpresa("Te ha pillado los pitufos con coca, ¡MULTA!",
-                               -500, 
-                               TipoSorpresa.IRACASILLA));
+        
     }
     
     public static void main(String[] args) {
