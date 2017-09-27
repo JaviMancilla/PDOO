@@ -27,7 +27,14 @@ public class PruebaQytetet {
         mazo.add(new Sorpresa("Un fan anónimo ha pagado tu fianza." +
                               "Sales de la cárcel", 
                               0, 
-                              TipoSorpresa.IRACASILLA));
+                              TipoSorpresa.SALIRCARCEL));
+        
+        mazo.add(new Sorpresa("Te has encontrado un bolso y ganas 200", 
+                              200, 
+                              TipoSorpresa.PAGARCOBRAR));
+        mazo.add(new Sorpresa("Te ha pillado los pitufos con coca, ¡MULTA!",
+                               -500, 
+                               TipoSorpresa.IRACASILLA));
     }
     
     public static void main(String[] args) {
